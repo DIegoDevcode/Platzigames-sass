@@ -19,7 +19,7 @@
         text-transform: uppercase;
         font-weight: 600;
         font-size: 20px;
-        font-family:$Fuente2;
+		@include titulos($Fuente2);
     }
     img{
         border-radius: 10px;
